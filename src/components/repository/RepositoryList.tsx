@@ -8,9 +8,6 @@ export function RepositoryList() {
   const { data: repositories, loading: loadingRepositories } = useFetch<
     IRepository[]
   >(`${BASE_URL}/repos`);
-
-  console.log(repositories);
-
   return (
     <ul>
       {repositories?.map((repo: IRepository) => {

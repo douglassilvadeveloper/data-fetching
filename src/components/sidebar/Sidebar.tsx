@@ -5,7 +5,7 @@ interface SidebarProps {}
 
 export function Sidebar({}: SidebarProps) {
   return (
-    <aside className={styles.sidebar}>
+    <div className={styles.sidebar}>
       <img className={styles.cover} src={developer} />
 
       <div className={styles.profile}>
@@ -22,6 +22,6 @@ export function Sidebar({}: SidebarProps) {
           Acesse o perfil
         </a>
       </footer>
-    </aside>
+    </div>
   );
 }

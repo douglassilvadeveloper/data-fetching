@@ -11,6 +11,7 @@ ul {
   border: 1px solid var(--gray-600);
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  overflow-wrap: break-word;
 }
 
 .card:hover,

@@ -14,9 +14,9 @@ export function App() {
         <Sidebar />
         <main>
           <h1 className={styles.pageTitle}>Lista de repositórios:</h1>
-          <section>
+          <div>
             <RepositoryList />
-          </section>
+          </div>
         </main>
       </div>
     </div>
