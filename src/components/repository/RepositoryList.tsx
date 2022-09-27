@@ -14,7 +14,7 @@ export function RepositoryList() {
         return (
           <li key={repo.full_name} className={styles.card}>
             <a href={repo.html_url}>
-              <h2>{repo.full_name}</h2>
+              <h2 className={styles.title}>{repo.full_name}</h2>
               <p>{repo.description}</p>
             </a>
           </li>
