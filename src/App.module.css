@@ -10,9 +10,6 @@
   align-items: flex-start;
 }
 
-.pageTitle {
-  padding: 1rem;
-}
 
 @media (max-width: 768px) {
   html {

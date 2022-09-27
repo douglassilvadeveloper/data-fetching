@@ -13,10 +13,7 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <h1 className={styles.pageTitle}>Lista de repositórios:</h1>
-          <div>
-            <RepositoryList />
-          </div>
+          <RepositoryList />
         </main>
       </div>
     </div>
